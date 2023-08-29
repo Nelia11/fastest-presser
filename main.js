@@ -19,7 +19,7 @@ const canvasL = document.getElementById("confettiL");
 
 startGameButton.addEventListener("click", () => {
     if (!/^\d+$/.test(inputTag.value)) {
-        inputTag.placeholder = "Please enter a number";
+        inputTag.placeholder = "Enter seconds";
         return;
     }
 
